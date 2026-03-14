@@ -3,7 +3,7 @@
 # Epstein Hidden File Finder
 There are nearly 4,000 pdf files in the DoJ Epstein library that only show a default pdf file saying "No Images Produced". 
 But, some smart sleuthers found that changing the .pdf file extension to a different extension brings back a legitimate file, such as using .docx or .mp4 instead of .pdf.
-This script finds every URL containing the phrase "No Images Produced" and each of the extensions below to see if it exists as a different file type.
+This script finds every URL containing the phrase "No Images Produced" and tests each of the extensions below to see if it exists as a different file type.
 
 ### Extensions Tested
 ```
