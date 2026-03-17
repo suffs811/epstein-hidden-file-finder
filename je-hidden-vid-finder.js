@@ -151,6 +151,9 @@ async function main() {
         for (const url of originalUrls) {
             fs.writeFileSync("output/original_urls.csv", `${url}\n`, { flag: "a" });
             await testURL(url);
+            if (originalUrls.indexOf(url) % 100 === 0) {
+                await writeResults(`\n[#] Tested ${originalUrls.indexOf(url)}/${originalUrls.length} URLs - [${((originalUrls.indexOf(url) / originalUrls.length) * 100).toFixed(2)}%]...\n`);
+            }
         }
 
         await writeResults(`\n[#] Finished testing links.\n`);

@@ -1,0 +1,70 @@
+/* Root styles */
+:root {
+
+  /* Global color variables */
+  --color-bg: #242424;
+  --color-bg-alt: #1a1a1a;
+  --color-fg: #ffffffde;
+  --color-bg-light: #3d3d3d;
+  --color-border: transparent;
+  --color-secondary: #646cff;
+  --color-primary: #F8F812;
+  --color-primary-light: #ffff55;
+  --color-menu-active-border: #F8F812aa;
+
+  font-family: "Quicksand", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 550;
+  margin: 0;
+  padding: 0;
+
+  color-scheme: light dark;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.main {
+  min-height: 100vh;
+  margin: 0;
+  padding: 5rem 0 0 0;
+  display: inline-block;
+  place-items: center;
+  min-width: 320px;
+  width: 100%;
+  flex: 1;
+}
+
+/* Fonts */
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.geist-mono-font {
+    font-family:  "Geist Mono", 'Courier New';
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
