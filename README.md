@@ -1,6 +1,6 @@
 ![Last Run](https://img.shields.io/badge/Last_Run-March_14,_2026-orange)
 
-> View the table here: [](suffs811.github.io/epstein-hidden-file-finder)
+> View the table here: [Epstein Hidden Files Table](http://suffs811.github.io/epstein-hidden-file-finder)
 
 # Epstein Hidden File Finder
 There are nearly 4,000 pdf files in the DoJ Epstein library that only show a default pdf file saying "No Images Produced". 
@@ -18,6 +18,8 @@ git clone https://github.com/suffs811/epstein-hidden-file-finder.git
 node epstein-hidden-file-finder.js
 ```
 
-- All tested urls saved to `tested_urls.txt`
-- Full results saved to `results.txt`
-
+### Output Files
+- Original URLs are saved to `output/original_urls.csv`
+- All tested urls are saved to `output/tested_urls.csv`
+- [ important! ] Files found with different extension are saved to `output/exists_urls.csv`
+- Full results saved to `output/raw_results.txt`
