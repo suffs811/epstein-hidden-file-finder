@@ -1,4 +1,6 @@
-![Extensions](https://img.shields.io/badge/Last_Run-March_14,_2026-orange)
+![Last Run](https://img.shields.io/badge/Last_Run-March_14,_2026-orange)
+
+> View the table here: [](suffs811.github.io/epstein-hidden-file-finder)
 
 # Epstein Hidden File Finder
 There are nearly 4,000 pdf files in the DoJ Epstein library that only show a default pdf file saying "No Images Produced". 
@@ -18,5 +20,4 @@ node epstein-hidden-file-finder.js
 
 - All tested urls saved to `tested_urls.txt`
 - Full results saved to `results.txt`
-
 
