@@ -1,6 +1,6 @@
 ![Last Run](https://img.shields.io/badge/Last_Run-March_14,_2026-orange)
 
-🚧 View the data here: [Epstein Hidden Files Table](http://suffs811.github.io/epstein-hidden-file-finder)
+### 🚧 View the data here: [Epstein Hidden Files Table](https://hidden-files.vercel.app/)
 
 # Epstein Hidden File Finder
 There are nearly 4,000 pdf files in the DoJ Epstein library that only show a default pdf file saying "No Images Produced". 
