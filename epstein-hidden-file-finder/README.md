@@ -1,6 +1,17 @@
-# Epstein Hidden File Finder Table Viewer
+# csvGUI
 
-> the github site for analyzing the found URLs
+React + Vite app for exploring CSV data in a table.
 
-Purpose:
-This is a SPA that implements a custom table for viewing a csv file (output/exists_urls.csv) and allows for searching for text within rows, sorting the rows by header, and filtering out rows based on their contents.
+Features:
+- Loads the bundled sample CSV on startup
+- Supports uploading any local CSV file
+- Downloads the current table view as a CSV file
+- Global text search across every cell
+- Per-column text filters
+- Ascending and descending sorting by clicking column headers
+- Responsive table layout with row and column counts
+
+Scripts:
+- npm run dev
+- npm run build
+- npm run lint

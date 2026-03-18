@@ -1,6 +1,8 @@
 ![Last Run](https://img.shields.io/badge/Last_Run-March_14,_2026-orange)
 
-> View the table here: [Epstein Hidden Files Table](http://suffs811.github.io/epstein-hidden-file-finder)
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="suffs118" data-color="#FFDD00" data-emoji=""  data-font="Poppins" data-text="I love coffee!" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+
+🚧 View the data here: [Epstein Hidden Files Table](http://suffs811.github.io/epstein-hidden-file-finder)
 
 # Epstein Hidden File Finder
 There are nearly 4,000 pdf files in the DoJ Epstein library that only show a default pdf file saying "No Images Produced". 
